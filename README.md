@@ -75,6 +75,7 @@ lib/
 
 ### Login Screen
 
+(Uploaded)
 
 
 ### Dashboard
@@ -89,7 +90,7 @@ lib/
 
 ## 🎥 Live Demo
 
-https://manya452.github.io/ai-interview-coach/
+https://Manya452.github.io/ai-interview-coach/
 
 ---
 
