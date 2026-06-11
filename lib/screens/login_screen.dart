@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'interview_category_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -73,7 +74,15 @@ class LoginScreen extends StatelessWidget {
                   width: double.infinity,
                   height: 50,
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) =>
+                              const InterviewCategoryScreen(),
+                        ),
+                      );
+                    },
                     child: const Text("Login"),
                   ),
                 ),
