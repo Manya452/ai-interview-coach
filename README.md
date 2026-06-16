@@ -1,53 +1,48 @@
 # 🎯 AI Interview Coach
 
-An AI-powered mock interview application built using Flutter that helps students and job seekers improve their interview skills through personalized practice sessions, AI-generated feedback, resume-based questions, and performance analytics.
+A Flutter-based mobile application that helps users prepare for interviews through structured mock interview sessions. Users can log in, select interview categories, and practice answering interview questions in an intuitive and user-friendly environment.
 
-## 🚀 Features
+---
 
-### Current Features
+## 📱 Overview
 
-* Modern Login UI
-* Responsive Flutter Design
-* Clean Project Architecture
-* Cross-Platform Support (Android, iOS, macOS, Windows, Web)
+AI Interview Coach is designed to simplify interview preparation by providing a guided practice experience. The application follows a modular architecture, making it easy to scale with future AI-powered features such as answer evaluation, feedback generation, and performance tracking.
 
-### Upcoming Features
+---
 
-* Firebase Authentication
-* AI-Powered Interview Feedback
-* Resume Upload & Analysis
-* Speech-to-Text Answers
-* AI Voice Interviewer
-* Interview History Tracking
-* Performance Analytics Dashboard
-* Personalized Career Recommendations
+## ✨ Current Features
+
+### 🔐 Authentication
+- Login Screen
+- User-friendly interface
+- Navigation-based authentication flow
+
+### 📂 Interview Categories
+- Select interview type before starting
+- Organized category selection interface
+- Easy navigation between screens
+
+### 🎤 Mock Interview Session
+- Interview question display
+- Interactive interview practice flow
+- Structured screen layout for future enhancements
+
+### 🏗️ Architecture
+- Modular Flutter project structure
+- Reusable widgets
+- Service-based architecture
+- Utility classes for scalability
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
-
-* Flutter
-* Dart
-
-### Backend
-
-* Firebase Authentication
-* Cloud Firestore
-* Firebase Storage
-
-### AI Integration
-
-* Gemini API / OpenAI API
-
-### Additional Packages
-
-* speech_to_text
-* flutter_tts
-* provider
-* http
-* file_picker
+| Technology | Purpose |
+|------------|----------|
+| Flutter | Cross-platform app development |
+| Dart | Programming language |
+| Material Design | UI Components |
+| Git & GitHub | Version Control |
 
 ---
 
@@ -56,100 +51,103 @@ An AI-powered mock interview application built using Flutter that helps students
 ```text
 lib/
 │
+├── models/
+│
 ├── screens/
 │   ├── login_screen.dart
-│   ├── dashboard_screen.dart
-│   ├── interview_screen.dart
-│   └── profile_screen.dart
+│   ├── interview_category_screen.dart
+│   └── interview_screen.dart
+│
+├── services/
+│
+├── utils/
 │
 ├── widgets/
-├── services/
-├── models/
-├── utils/
+│
 └── main.dart
 ```
 
 ---
 
-## 📸 Screenshots
+## 🚀 Getting Started
 
-### Login Screen
+### Prerequisites
 
-(Uploaded)
+- Flutter SDK
+- Dart SDK
+- Android Studio / VS Code
+- Android Emulator or Physical Device
 
-
-### Dashboard
-
-(Coming Soon)
-
-### Interview Screen
-
-(Coming Soon)
-
----
-
-## 🎥 Live Demo
-
-https://Manya452.github.io/ai-interview-coach/
-
----
-
-## ⚙️ Installation
-
-Clone the repository:
+### Installation
 
 ```bash
-git clone https://github.com/Manya452/ai-interview-coach.git
-```
+git clone https://github.com/YOUR_USERNAME/ai_interview_coach.git
 
-Navigate to project:
+cd ai_interview_coach
 
-```bash
-cd ai-interview-coach
-```
-
-Install dependencies:
-
-```bash
 flutter pub get
-```
 
-Run the project:
-
-```bash
 flutter run
 ```
 
 ---
 
-## 🎯 Future Roadmap
+## 📸 Application Flow
 
-* [x] Login UI
-* [ ] Dashboard UI
-* [ ] Firebase Authentication
-* [ ] Interview Categories
-* [ ] AI Feedback System
-* [ ] Resume-Based Interviews
-* [ ] Voice Interviews
-* [ ] Performance Analytics
-* [ ] Deployment
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and feedback are welcome.
+```text
+Login Screen
+      │
+      ▼
+Interview Category Screen
+      │
+      ▼
+Interview Session Screen
+```
 
 ---
 
-## 📄 License
+## 🔄 Development Status
 
-This project is licensed under the MIT License.
+### ✅ Completed
+
+- Login UI
+- Interview Category Selection
+- Interview Session Screen
+- Navigation Between Screens
+- Project Architecture Setup
+
+### 🚧 Planned Features
+
+- AI-Powered Interview Questions
+- Answer Analysis & Feedback
+- Interview Scoring System
+- Voice-Based Interviews
+- User Progress Tracking
+- Performance Dashboard
+- Resume Analysis
+- Interview History
+
+---
+
+## 🎯 Learning Outcomes
+
+This project demonstrates:
+
+- Flutter UI Development
+- Navigation & Routing
+- Clean Project Architecture
+- Reusable Widget Design
+- State Management Preparation
+- Mobile Application Development Fundamentals
 
 ---
 
 ## 👩‍💻 Author
 
-Manya Gupta
+**Manya Gupta**
 
-Building an AI-powered platform to help students prepare for interviews and improve communication skills.
+Aspiring Flutter Developer passionate about building practical and impactful mobile applications.
+
+---
+
+⭐ If you found this project interesting, consider giving it a star.
